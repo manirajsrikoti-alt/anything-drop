@@ -1,0 +1,28 @@
+{
+  "name": "anything-drop",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AnythingDrop - Instant P2P WebRTC Cross-Device File Sharing Web App",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "start:prod": "node server/index.js --rate-limit --auto-restart"
+  },
+  "author": "Maniraj Srikoti <manirajsrikoti@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manirajsrikoti-alt/anything-drop.git"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "ua-parser-js": "^1.0.37",
+    "unique-names-generator": "^4.3.0",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
