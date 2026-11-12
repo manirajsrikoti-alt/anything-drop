@@ -130,6 +130,12 @@ docker run -p 3000:3000 anything-drop
 
 ## ☁️ 1-Click Cloud Deployment
 
+### Deploy on Vercel (Edge Web Client)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmanirajsrikoti-alt%2Fanything-drop)
+
+1. Click the **Deploy with Vercel** button above or import `manirajsrikoti-alt/anything-drop` on [Vercel](https://vercel.com/new).
+2. Vercel automatically detects `vercel.json` and `api/config.js` to deploy the frontend with global edge CDN and SSL.
+
 ### Deploy on Render
 Click to deploy using the included `render.yaml`:
 1. Fork or push this repository to your GitHub.
